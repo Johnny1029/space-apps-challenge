@@ -1,0 +1,53 @@
+        
+    <title>NASA Apps Challenge _ Johnny Lee</title>
+
+
+     <body background="D:/NASA_Data/mars.jpg" text="white"   >    
+<form>
+    <big><big><big>NASA Apps Challenge _ Johnny Lee</big></big></big> <br>
+    <big></big><big>Worked on a solution for Spot That Fire V2.0</big><big></big> <br>
+    <big>Satellite information from : VIIRS & MODIS </big> <br>
+    <big>Map information from : NASA FIRMS</big> <br>
+    <big>Please note the program is only for NASA Apps Challenge Hackathon purpose, not a real product</big>
+</form>
+
+<form>
+
+
+    <div>
+            <label for="a_day">Enter the date you want to search From:</label>
+            <input type="date" id="A_day" name="a_day" required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}">
+            <span class="validity"></span> 
+
+
+    </div>
+
+<br>
+
+<div>
+        <label for="b_day">Enter the date you want to search To:</label>
+        <input type="date" id="B_day" name="b_day" required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}">
+        <span class="validity"></span>
+      </div>
+<br>
+Choose Location near your Home or location to see Fire Information(now only for L.A.)
+<br>
+    <select name="Location" id="Location" style="font-size:20px" >
+
+    <option value="-118.539,34.291">Granada Hills</option>
+    <option value="-118.590,34.278">Porter Ranch</option>
+
+    <option value="-118.483,34.307" selected="selected">Sylmar</option>
+
+    <option value="-118.453,34.288">San Fernando</option>
+    <option value="-118.558,34.239">Northridge</option>
+
+    <option value="-118.639,34.254">Chatsworth</option>
+    <option value="-118.390,34.231">Sun Valley</option>
+    <option value="-118.332,34.195">Glendale</option>
+
+    <option value="-118.171,34.193">Altadena</option>
+    <option value="-118.066,34.168">Sierra Madre</option>
+
+    </select>
+
